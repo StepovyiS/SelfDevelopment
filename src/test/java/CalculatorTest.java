@@ -5,14 +5,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalculatorTest {
 
     @Test
-    void twoPlusTwoEqualsFour(){
+    void FivePlusTwoEqualsSeven(){
         Calculator calculator = new Calculator();
-        assertEquals(4, Calculator.plusOperation(2,2));
+        assertEquals(7, Calculator.plusOperation(5,2));
     }
     @Test
-    void fourMinusTwoEqualsTwo(){
+    void eightMinusTwoEqualsSix(){
         Calculator calculator = new Calculator();
-        assertEquals(2, Calculator.minusOperation(4,2));
+        assertEquals(6, Calculator.minusOperation(8,2));
     }
     @Test
     void fourMultipleTwoEqualsEight(){
